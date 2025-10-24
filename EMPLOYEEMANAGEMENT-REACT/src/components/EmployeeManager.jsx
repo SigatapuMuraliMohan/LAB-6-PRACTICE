@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
-
+import config from './config.js';
 const EmployeeManager = () => {
   const [employees, setEmployees] = useState([]);
   const [employee, setEmployee] = useState({
